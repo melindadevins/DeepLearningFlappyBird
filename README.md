@@ -113,3 +113,25 @@ This work is highly based on the following repos:
 1. [sourabhv/FlapPyBird] (https://github.com/sourabhv/FlapPyBird)
 2. [asrivat1/DeepLearningVideoGames](https://github.com/asrivat1/DeepLearningVideoGames)
 
+
+## Additional Instructions
+Install miniconda or anaconda if you have not already. You can follow our tutorial for help.
+Create an environment for flappybird
+'''
+Mac/Linux: conda create --name=flappybird python=2.7
+Windows: conda create --name=flappybird python=3.5
+'''
+Enter your conda environment
+'''
+Mac/Linux: source activate flappybird
+Windows: activate flappybird
+conda install -c menpo opencv3
+'''
+'''
+pip install pygame
+pip install tensorflow
+git clone https://github.com/yenchenlin/DeepLearningFlappyBird.git
+cd DeepLearningFlappyBird
+python deep_q_network.py
+'''
+If all went correctly, you should be seeing a Deep Learning based agent play Flappy Bird! The repository contains instructions for training your own agent if you're interested!
