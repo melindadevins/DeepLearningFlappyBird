@@ -118,7 +118,7 @@ This work is highly based on the following repos:
 1. Install miniconda or anaconda if you have not already. You can follow our tutorial for help.
 
 2. Create an environment for flappybird
-```python
+```
 Mac/Linux: conda create --name=flappybird python=2.7
 Windows: conda create --name=flappybird python=3.5
 ```
@@ -133,7 +133,7 @@ conda install -c menpo opencv3
 ```
 pip install pygame
 pip install tensorflow
-git clone https://github.com/yenchenlin/DeepLearningFlappyBird.git
+git clone https://github.com/melindadevins/DeepLearningFlappyBird.git
 cd DeepLearningFlappyBird
 python deep_q_network.py
 ```
